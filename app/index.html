@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple angular app</title>
+    <script src="../node_modules/angular/angular.js"></script>
+</head>
+<body ng-app="simpleApp">
+    <div ng-controller="simpleCtrl">
+        <p>Привет мир!</p>
+        <p>Hello {{firstName + " " + lastName}}!</p>
+        <p>Your salary is <span ng-bind="salary"></span></p>
+    </div>
+    <script src="js/controllers/simpleCtrl.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "simple-angular-app",
+  "version": "1.0.0",
+  "description": "A simple app with Angular JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimirFr89/simpleAngularApp.git"
+  },
+  "author": "fedorin_v",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladimirFr89/simpleAngularApp/issues"
+  },
+  "homepage": "https://github.com/vladimirFr89/simpleAngularApp#readme",
+  "dependencies": {
+    "angular": "^1.6.7"
+  }
+}
