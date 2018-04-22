@@ -10,6 +10,9 @@
         <p>Привет мир!</p>
         <p>Hello {{firstName + " " + lastName}}!</p>
         <p>Your salary is <span ng-bind="salary"></span></p>
+        <p>Click to the button to increase the salary!</p>
+        <button ng-init="multiple=0.1; clicked=false; myArr = [1,2,3,4,5,6]; user = {fr:'Vasya', ln:'Pupkin'}" ng-click="increaseSalary()">!!!Click me!!!</button>
+        <div ng-show="clicked">Holy sheet!</div>
     </div>
     <script src="js/controllers/simpleCtrl.js"></script>
 </body>
